@@ -1,11 +1,10 @@
-# Bootstrap theme for Aire 
+# Bootstrap 5 theme for Aire 
 
  - https://github.com/glhd/aire
- - https://glhd.github.io/aire/bootstrap
 
 ## Installation
 Install via composer with:
 
 ```
-composer require glhd/aire-bootstrap
+composer require glhd/aire miteyema/aire-bootstrap5
 ```

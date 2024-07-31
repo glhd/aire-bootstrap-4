@@ -1,6 +1,6 @@
 {
-  "name": "glhd/aire-bootstrap",
-  "description": "Bootstrap themes for Aire",
+  "name": "miteyema/aire-bootstrap5",
+  "description": "Bootstrap 5 themes for Aire",
   "keywords": [
     "laravel",
     "forms",
@@ -11,13 +11,17 @@
     {
       "name": "Chris Morrell",
       "homepage": "http://www.cmorrell.com"
+    },
+    {
+      "name": "Tim Ameye",
+      "homepage": "http://shiftlock.io"
     }
   ],
   "license": "MIT",
   "require": {
     "php": ">=7.1",
     "glhd/aire": "^2.0",
-    "illuminate/support": "^5.7|^6.0|^7.0|^8.0|^9.0|^10.0"
+    "illuminate/support": "^5.7|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0"
   },
   "require-dev": {
     "orchestra/testbench": "~3.0|~4.0|~5.0|~6.0",
@@ -41,7 +45,7 @@
       "Galahad\\AireBootstrap\\Tests\\": "tests/"
     }
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "extra": {
     "laravel": {
       "providers": [

@@ -26,11 +26,11 @@ class AireBootstrapServiceProvider extends ServiceProvider
                 'group_append' => 'input-group-append',
                 'group_help_text' => 'form-text text-muted',
                 'group_errors' => '',
-                'label' => '',
+                'label' => 'form-label',
                 'input' => 'form-control',
 
-                'checkbox' => 'custom-control-input',
-                'checkbox_label' => 'custom-control-label',
+                'checkbox' => 'form-check-input',
+                'checkbox_label' => 'form-check-label',
                 'checkbox_wrapper' => 'custom-control custom-checkbox',
 
                 'checkbox_group' => 'custom-control-input',
@@ -147,10 +147,6 @@ class AireBootstrapServiceProvider extends ServiceProvider
             $input->attributes->registerMutator('class', function (ClassNames $classNames) use ($input) {
 
                 if ('file' === $input->attributes->get('type')) {
-                    $classNames
-                        ->remove('form-control')
-                        ->add('custom-file-input');
-
                     $input
                         ->groupAddClass('custom-file')
                         ->groupRemoveClass('form-group');

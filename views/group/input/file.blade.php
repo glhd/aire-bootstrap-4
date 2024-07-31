@@ -14,8 +14,8 @@
             @endif
     
             <div class="custom-file">
-                {{ $element }}
                 {{ $label }}
+                {{ $element }}
             </div>
             
             @if($append)
